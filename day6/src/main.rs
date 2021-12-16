@@ -72,7 +72,7 @@ fn clever_part_one_and_two(days: usize) {
         //day 3 , on 1 += as on 6 etc... 1 fish == 1 fish so just sum each day
     }
     println!("{:?}", array); // num of fishes per day
-    println!("{:?}", array.iter().sum::<usize>()); // sum of all fishes per day
+    println!("{:?}", array.iter().sum::<usize>()); // sum of all fishes
 }
 
 fn main() {
